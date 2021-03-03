@@ -1,5 +1,7 @@
 'use strict';
 const mask = function(texts, ...expressions) {
+  console.log(texts);
+  console.log(expressions);
 
   const createMask = (text) => '*'.repeat(text.length);
 
