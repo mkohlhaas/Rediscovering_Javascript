@@ -39,3 +39,8 @@ try {
 } catch(ex) {
   console.log(ex.message);
 }
+
+// All fields of an instance in Javascript are public. 
+// There is no concept of public, private, etc.
+car.miles = 1;
+console.log(car);
