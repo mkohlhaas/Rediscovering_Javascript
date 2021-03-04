@@ -34,6 +34,11 @@ const sam = {
 }
 
 {
+  const { name, age } = sam;
+  console.log(`${name} ${age}`);
+}
+
+{
   const { [weight]: wt, [Symbol.for('favoriteColor')]: favColor } = sam;
   console.log(`${wt} ${favColor}`);
 }
@@ -41,6 +46,11 @@ const sam = {
 {
   const { lat, lon, favorite = true} = {lat: 84.45, lon: -114.12};
   console.log(`${lat} ${lon} ${favorite}`);
+}
+
+{
+  const { lat, lon, favorite: liked = false} = {lat: 84.45, lon: -114.12};
+  console.log(`${lat} ${lon} ${liked}`);
 }
 
 {
@@ -68,7 +78,8 @@ const sam = {
 }
 
 {
-  const { name, address: { street } } = sam;
+  // const { name, address: { street } } = sam;
+  const { address: { street } } = sam;
   
   console.log(street);
   
@@ -80,13 +91,15 @@ const sam = {
 }
 
 {
-  const { name, address: { street }, shipping: { street: shipStreet } } = sam;
+  // const { name, address: { street }, shipping: { street: shipStreet } } = sam;
+  const { address: { street }, shipping: { street: shipStreet } } = sam;
   
-  console.log(`${street} ${shipStreet}`);
+  console.log(`${street}\n${shipStreet}`);
 }
 
 {
   let theName = '--';
+  // Note: braces need parens
   ({ name: theName } = sam);
 
   console.log(theName);

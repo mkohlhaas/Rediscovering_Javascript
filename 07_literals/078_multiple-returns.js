@@ -6,14 +6,24 @@ const getPresidentName = function(number) {
 };
 
 {
+  console.log(getPresidentName(6));
+}
+
+{
   const president6 = getPresidentName(6);
   const firstName = president6[0];
+  const middleName = president6[1];
   const lastName = president6[2];
-  console.log(`First name: ${firstName} Last name: ${lastName}`);
+  console.log(`First name: ${firstName} Middle Name: ${middleName} Last name: ${lastName}`);
 }
 
 {
   const [firstName, middleName, lastName] = getPresidentName(6);
+  console.log(`First name: ${firstName} Middle Name: ${middleName} Last name: ${lastName}`);
+}
+
+{
+  const [firstName,, lastName] = getPresidentName(6);
   console.log(`First name: ${firstName} Last name: ${lastName}`);
 }
 
@@ -23,18 +33,12 @@ const getPresidentName = function(number) {
 }
 
 {
-  const [firstName,, lastName] = getPresidentName(6);
-  console.log(`First name: ${firstName} Last name: ${lastName}`);
-}
-
-{
   const [firstName,, lastName, nickName] = getPresidentName(6);
   console.log(nickName);
 }
 
 {
-  const [firstName,, lastName, nickName='Old Man Eloquent'] =
-    getPresidentName(6);
+  const [firstName,, lastName, nickName='Old Man Eloquent'] = getPresidentName(6);
   console.log(nickName);
 }
 
