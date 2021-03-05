@@ -1,1 +1,0 @@
-export { Thermostat, celsiusToKelvin } from './temperature';

@@ -1,1 +1,0 @@
-import uom, * as heat from './temperature';

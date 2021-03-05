@@ -1,4 +1,4 @@
-import { right } from './right';
+import { right } from './105_right.mjs';
 
 console.log('executing middle module');
 
