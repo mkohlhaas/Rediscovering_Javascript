@@ -33,7 +33,5 @@ class SpecializedNames extends Names {
 const specializedNames = new SpecializedNames('Java', 'C#', 'JavaScript');
 
 console.log(specializedNames.filter1(name => name.startsWith('Java')));
-
 console.log(specializedNames.filter2(name => name.startsWith('Java')));
-
 console.log(specializedNames.filter3(name => name.startsWith('Java')));
