@@ -18,8 +18,6 @@ const displayFileContent = function(pathToFile) {
   }
 };
 
-displayFileContent('readfile.js');
-
+displayFileContent('124_readfile.js');
 displayFileContent('does-not-exits');
-
 displayFileContent();

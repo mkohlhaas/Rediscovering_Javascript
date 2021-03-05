@@ -31,3 +31,4 @@ const reportOnPromise = function(promise) {
 reportOnPromise(forNegative1);
 reportOnPromise(forZero);
 reportOnPromise(forSixteen);
+console.log('... keep on going ...');

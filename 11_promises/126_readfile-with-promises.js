@@ -3,6 +3,8 @@
 const fs = require('fs-extra');
 
 const countLinesWithText = function(pathToFile) {
+  // Both then() and catch() return a promise, calls to these functions may
+  // be chained to apply a series of filtering and transformations
   fs.readFile(pathToFile)
     .then(content => content.toString())
     .then(content => content.split('\n'))
@@ -21,7 +23,7 @@ const checkLineExists = function(count) {
   return count;
 };
 
-countLinesWithText('readfile-with-promises.js');
-countLinesWithText('readfile.js');
+countLinesWithText('126_readfile-with-promises.js');
+countLinesWithText('124_readfile.js');
 countLinesWithText('invalid');
 countLinesWithText();
