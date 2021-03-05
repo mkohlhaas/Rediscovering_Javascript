@@ -30,7 +30,6 @@ class ReputablePerson extends Person {
   get fullName() {
     return `Reputed ${this.surname}, ${super.fullName} `;
   }
-  
 }
 
 const alan = new ReputablePerson('Alan', 'Turing', 5);

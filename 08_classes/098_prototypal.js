@@ -39,15 +39,20 @@ const printPrototypeHierarchy = function(instance) {
 
 const alan = new ReputablePerson('Alan', 'Turing', 5);
 
+console.log('------- Prototype Hierarchy ------------');
 printPrototypeHierarchy(alan);
 
 class ComputerWiz {}
 
 Reflect.setPrototypeOf(Reflect.getPrototypeOf(alan), ComputerWiz.prototype);
 
-console.log('...after change of prototype...');                              
-
+console.log('------- After change of prototype ------');                              
 printPrototypeHierarchy(alan);
 
+console.log('------- New Reputable Person -----------');
 const ada = new ReputablePerson('Ada', 'Lovelace', 5);
+console.log('------- Prototype Hierarchy ------------');
 printPrototypeHierarchy(ada);
+// ComputerWiz doesn't have a fullname getter.
+console.log('----------------------------------------');
+console.log(ada.fullName);
