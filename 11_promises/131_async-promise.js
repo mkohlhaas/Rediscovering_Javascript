@@ -12,7 +12,7 @@ const callCompute = function(number) {
   compute(number)
     .then(result => console.log(`Result is ${result}`))
     .catch(error => console.log(error));
-}
+};
 
 callCompute(2);
 callCompute(-1);
