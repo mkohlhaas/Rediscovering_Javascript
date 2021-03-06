@@ -1,4 +1,5 @@
 'use strict';
+
 const aFunc = function() {};
 const anArrow = () => {};
 

@@ -1,4 +1,5 @@
 'use strict';
+
 const hours = 14;
 const event = 'meeting';
 

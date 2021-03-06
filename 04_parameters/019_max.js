@@ -1,4 +1,5 @@
 'use strict';
+
 const max = function(a, b) {
   if (a > b) {
     return a;

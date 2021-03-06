@@ -1,4 +1,5 @@
 'use strict';
+
 const outer = function() {
   return () => console.log(new.target);
 };

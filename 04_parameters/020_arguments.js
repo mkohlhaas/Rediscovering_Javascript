@@ -1,4 +1,5 @@
 'use strict';
+
 const max = function() {
   console.log(arguments instanceof Array);
     

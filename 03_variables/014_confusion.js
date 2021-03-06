@@ -1,4 +1,5 @@
 'use strict';
+
 let factor = 2;
 
 let product = function(number) {

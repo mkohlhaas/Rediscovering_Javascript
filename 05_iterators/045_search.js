@@ -1,4 +1,5 @@
 'use strict';
+
 class SuperHero {
   constructor(name, realName) {
     this.name = name;

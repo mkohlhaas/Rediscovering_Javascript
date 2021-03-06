@@ -1,6 +1,6 @@
-//BROKEN CODE
 'use strict';
 
+//BROKEN CODE
 const oops = function() {
   haha = 2;
 

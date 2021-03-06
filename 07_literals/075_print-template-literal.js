@@ -1,4 +1,5 @@
 'use strict';
+
 const printDetails = function(texts, ...expressions) {
   console.log(texts);
   console.log(expressions);

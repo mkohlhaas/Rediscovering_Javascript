@@ -1,4 +1,5 @@
 'use strict';
+
 const name = 'John Doe';
 
 const message = `Dear ${name},

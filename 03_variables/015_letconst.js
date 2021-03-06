@@ -1,5 +1,6 @@
-//BROKEN CODE
 'use strict';
+
+//BROKEN CODE
 let price = 120.25;
 const tax = 0.825;
 

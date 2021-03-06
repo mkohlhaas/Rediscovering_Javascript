@@ -1,4 +1,5 @@
 'use strict';
+
 const createClass = function(...fields) {
   // Class name is optional for class expressions.
   return class {

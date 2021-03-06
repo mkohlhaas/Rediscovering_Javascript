@@ -1,4 +1,5 @@
 'use strict';
+
 class CardDeck {
   constructor() {
     this.suitShapes = ['Clubs', 'Diamonds', 'Hearts', 'Spaces'];

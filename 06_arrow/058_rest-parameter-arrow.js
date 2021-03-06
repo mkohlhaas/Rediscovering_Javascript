@@ -1,4 +1,5 @@
 'use strict';
+
 const greet = 
   (message, ...subjects) => console.log(message + ' '+ subjects.join(', '));
 

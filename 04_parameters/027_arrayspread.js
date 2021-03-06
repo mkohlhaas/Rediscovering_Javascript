@@ -1,4 +1,5 @@
 'use strict';
+
 const names1 = ['Tom', 'Jerry'];
 const names2 = ['Butch', 'Spike', 'Tyke'];
 

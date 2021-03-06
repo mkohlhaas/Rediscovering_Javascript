@@ -1,4 +1,5 @@
 'use strict';
+
 let value = 4;
 
 const msg1 = `The value is ${value}`;

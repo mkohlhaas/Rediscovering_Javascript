@@ -1,4 +1,5 @@
 'use strict';
+
 const createPerson = function(name, age, sport, sportFn) {
   return {
     name,

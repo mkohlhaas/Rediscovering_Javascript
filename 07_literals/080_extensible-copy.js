@@ -1,4 +1,5 @@
 'use strict';
+
 const addAge = function(person, theAge) {
   return {...person, last: person.last.toUpperCase(), age: theAge };
 };

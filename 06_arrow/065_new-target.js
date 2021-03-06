@@ -1,4 +1,5 @@
 'use strict';
+
 const f1 = function() {
   if(new.target) {
     console.log('called as a constructor');    

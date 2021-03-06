@@ -1,6 +1,6 @@
-//BROKEN CODE
 'use strict';
 
+//BROKEN CODE
 const sam = Object.freeze({ first: 'Sam', age: 2 });
 
 //sam = {}; //ERROR, the reference sam is immutable

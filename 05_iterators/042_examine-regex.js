@@ -1,4 +1,5 @@
 'use strict';
+
 const regex = /cool/;
             
 process.stdout.write('regex is of type RegExp: ');

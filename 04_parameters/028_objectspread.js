@@ -1,4 +1,5 @@
 'use strict';
+
 const sam = { name: 'Sam', age: 2 };
   
 console.log(sam);

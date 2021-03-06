@@ -1,4 +1,5 @@
 'use strict';
+
 const sortByTitle = function(books, ascending = true) {
   const multiplier = ascending ? 1 : -1;
     

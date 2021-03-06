@@ -1,4 +1,5 @@
 'use strict';
+
 var max = 100; 
 console.log(max);
 

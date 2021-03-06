@@ -1,4 +1,5 @@
 'use strict';
+
 //BROKEN_CODE
 let max = 100;
 console.log(max);

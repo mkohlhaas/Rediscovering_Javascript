@@ -1,4 +1,5 @@
 'use strict';
+
 const name = 'Tom';
 const tom = Symbol(name);
 const jerry = Symbol('Jerry');

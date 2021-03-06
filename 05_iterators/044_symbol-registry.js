@@ -1,4 +1,5 @@
 'use strict';
+
 const masterWizard = Symbol.for('Dumbledore');
 const topWizard = Symbol.for('Dumbledore');
 

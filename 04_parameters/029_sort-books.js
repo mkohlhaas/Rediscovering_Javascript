@@ -1,4 +1,5 @@
 'use strict';
+
 const sortByTitle = function(books) {
   const byTitle = function(book1, book2) {
     return book1.title.localeCompare(book2.title);
