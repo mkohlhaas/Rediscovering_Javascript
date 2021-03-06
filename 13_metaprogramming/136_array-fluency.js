@@ -1,6 +1,7 @@
 'use strict';
 
 const langs = ['JavaScript', 'Ruby', 'Python', 'Clojure'];
+
 {
   const firstElement = langs[0];
   const lastElement = langs[langs.length - 1]; //eh?

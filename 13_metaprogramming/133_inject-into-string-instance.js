@@ -8,7 +8,9 @@ try {
   console.log(ex.message);
 }
 
-text.reverse = function() { return this.split('').reverse().join(''); };
+text.reverse = function() { 
+  return this.split('').reverse().join('');
+};
 
 console.log(text.reverse());
 

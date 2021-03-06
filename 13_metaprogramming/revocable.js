@@ -4,14 +4,13 @@ const counterFactory = function() {
   class Counter {
     constructor() { this.value = 0; }
     increment() { this.value += 1; }
-    
     get count() { return this.value; }
   }
 
   const { proxy: counterProxy, revoke: revokeFunction } = 
     Proxy.revocable(new Counter(), {});
   
-  const leaseTime = 100;
+  const leaseTime = 400;
   setTimeout(revokeFunction, leaseTime);
   
   return counterProxy;
